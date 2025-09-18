@@ -1,4 +1,4 @@
-## Project Summary: Custom IoT PCB with ESP32-C3-02 and TP4056 Li-ion Charger
+## Project Summary: Custom IoT PCB with ESP32-C3-02.
 
 This project involves the design and development of a **4-layer custom PCB** for an IoT application powered by the ESP32-C3-02 SoC. The board integrates **Wi-Fi/BLE connectivity** and **TP4056-based Li-ion charging circuitry**, enabling efficient and safe charging of a single-cell Li-ion battery.
 
