@@ -633,6 +633,10 @@
     [
       "db43b58c-fd32-4bba-b73e-41c96465b130",
       "Root"
+    ],
+    [
+      "67fd96cd-9b72-43ab-a2ef-5ad5e85521dd",
+      "ESP32-c3-02"
     ]
   ],
   "text_variables": {}
