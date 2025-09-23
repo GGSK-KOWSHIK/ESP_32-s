@@ -4804,6 +4804,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 168.91) (xy 71.12 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ec58f9-3e9a-4407-85fc-d417b284a0b8")
+	)
+	(wire
+		(pts
 			(xy 63.5 31.75) (xy 45.72 31.75)
 		)
 		(stroke
@@ -4851,16 +4861,6 @@
 			(type default)
 		)
 		(uuid "8d00cff1-cfd0-49f9-9d96-3002b493a3ab")
-	)
-	(wire
-		(pts
-			(xy 67.31 171.45) (xy 72.39 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d830e58-d7e1-4bb7-92d8-f68664b19397")
 	)
 	(wire
 		(pts
@@ -4971,6 +4971,16 @@
 			(type default)
 		)
 		(uuid "aa5aac04-9fd3-4c91-9188-5e32ad8e684b")
+	)
+	(wire
+		(pts
+			(xy 63.5 166.37) (xy 73.66 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac86e1d-72dc-438c-96b8-f43d4dff152a")
 	)
 	(wire
 		(pts
@@ -5174,6 +5184,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 168.91) (xy 71.12 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf5e2d6-733b-45e9-816e-4f3869ddad79")
+	)
+	(wire
+		(pts
 			(xy 45.72 107.95) (xy 50.8 107.95)
 		)
 		(stroke
@@ -5332,6 +5352,16 @@
 		)
 		(uuid "3bf1bda7-6ef3-4c3c-b9d4-a7fe1b48b4db")
 	)
+	(label "VBAT"
+		(at 73.66 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d075d9f-a9a3-401d-8907-18cbfe346a6b")
+	)
 	(label "+5V_USB"
 		(at 187.96 55.88 180)
 		(effects
@@ -5471,16 +5501,6 @@
 			(justify right bottom)
 		)
 		(uuid "e270d8f9-9d9d-47f6-868e-1f83e70ecf47")
-	)
-	(label "VBAT"
-		(at 67.31 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8000773-defc-4066-a546-055662cf4801")
 	)
 	(label "USB_DP"
 		(at 135.89 166.37 0)
@@ -6813,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SS-52400-002:BELFUSE_SS-52400-002"
+		(property "Footprint" "Footprints:BELFUSE_SS-52400-002"
 			(at 83.82 46.99 0)
 			(effects
 				(font
@@ -7543,195 +7563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "B2B-PH-SM4-TB:B2B-PH-SM4-TB")
-		(at 62.23 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "894ff8a1-381f-4163-a98d-058d3fea1bf8")
-		(property "Reference" "J2"
-			(at 58.42 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B2B-PH-SM4-TB"
-			(at 58.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "JST"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON STANDARD-2 JST"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=eda"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=snap"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "B2B-PH-SM4-TB"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector Header Surface Mount 2 position 0.079 (2.00mm)"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 62.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e39f3881-bb38-4048-86f6-e950e81db4d8")
-		)
-		(pin "1"
-			(uuid "decc4b44-ba09-4389-8757-9e0b72a328ca")
-		)
-		(instances
-			(project ""
-				(path "/db43b58c-fd32-4bba-b73e-41c96465b130"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 86.36 0)
 		(unit 1)
@@ -8199,6 +8030,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4c35c3d-16e7-4f23-9990-52c06fd893c5")
+		(property "Reference" "#PWR028"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5527b5af-62ce-4be4-b2a3-45f7d5b880d3")
+		)
+		(instances
+			(project "esp_32"
+				(path "/db43b58c-fd32-4bba-b73e-41c96465b130"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 254 74.93 0)
 		(unit 1)
@@ -8327,72 +8224,6 @@
 			(project ""
 				(path "/db43b58c-fd32-4bba-b73e-41c96465b130"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7eead96-b1b5-44e7-827d-606025409a51")
-		(property "Reference" "#PWR016"
-			(at 72.39 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b62f3893-d739-490e-812f-5f218bc488b6")
-		)
-		(instances
-			(project "esp_32"
-				(path "/db43b58c-fd32-4bba-b73e-41c96465b130"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8565,7 +8396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM1117MPX-3.3:VREG_LM1117MPX-3.3"
+		(property "Footprint" "Footprints:VREG_LM1117MPX-3.3"
 			(at 78.74 110.49 0)
 			(effects
 				(font
@@ -9435,6 +9266,197 @@
 		)
 	)
 	(symbol
+		(lib_id "B2B-PH-SM4-TB:B2B-PH-SM4-TB")
+		(at 58.42 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5bb8058-a544-415b-a8ea-6095643a05fe")
+		(property "Reference" "J5"
+			(at 54.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B2B-PH-SM4-TB"
+			(at 62.738 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD-2 JST"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=eda"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=snap"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "B2B-PH-SM4-TB"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Surface Mount 2 position 0.079 (2.00mm)"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9cd5a4d-de77-492b-9881-56c7b3a2baa5")
+		)
+		(pin "2"
+			(uuid "405eba1b-3291-489b-8d46-4403a63efee8")
+		)
+		(instances
+			(project ""
+				(path "/db43b58c-fd32-4bba-b73e-41c96465b130"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 196.85 133.35 270)
 		(unit 1)
@@ -9730,7 +9752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FBMJ2125HM330-T:BEADC2012X105N"
+		(property "Footprint" "Footprints:BEADC2012X105N"
 			(at 240.03 43.18 0)
 			(effects
 				(font

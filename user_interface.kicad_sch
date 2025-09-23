@@ -1847,7 +1847,7 @@
 		(uuid "431c0606-3e35-449f-bb56-cba0890034b3")
 	)
 	(junction
-		(at 163.83 58.42)
+		(at 163.83 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5538914f-436e-42bc-a789-93c9999bb2f1")
@@ -1859,7 +1859,7 @@
 		(uuid "9bc545c7-b26a-48f8-9a80-edc3707716eb")
 	)
 	(junction
-		(at 132.08 63.5)
+		(at 132.08 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad6f75c4-9e71-42a0-80ac-4321cbea93ae")
@@ -1871,7 +1871,7 @@
 		(uuid "cb324a3f-f3d6-4d9e-9636-abee1cf5ef5e")
 	)
 	(junction
-		(at 132.08 67.31)
+		(at 132.08 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd0b5653-f581-4510-9311-3269685b0dec")
@@ -1940,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 58.42) (xy 163.83 73.66)
+			(xy 163.83 60.96) (xy 163.83 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 63.5) (xy 132.08 63.5)
+			(xy 129.54 66.04) (xy 132.08 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 46.99) (xy 163.83 46.99)
+			(xy 134.62 49.53) (xy 163.83 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 58.42) (xy 134.62 58.42)
+			(xy 140.97 60.96) (xy 134.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2240,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 63.5) (xy 140.97 63.5)
+			(xy 132.08 66.04) (xy 140.97 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2280,7 +2280,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 46.99) (xy 163.83 58.42)
+			(xy 163.83 49.53) (xy 163.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2290,7 +2290,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 132.08 67.31)
+			(xy 160.02 69.85) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2300,7 +2300,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 63.5) (xy 132.08 67.31)
+			(xy 132.08 66.04) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 58.42) (xy 163.83 58.42)
+			(xy 156.21 60.96) (xy 163.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2370,7 +2370,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 58.42) (xy 134.62 46.99)
+			(xy 134.62 60.96) (xy 134.62 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 63.5) (xy 160.02 63.5)
+			(xy 156.21 66.04) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 63.5) (xy 160.02 67.31)
+			(xy 160.02 66.04) (xy 160.02 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2694,7 @@
 	)
 	(hierarchical_label "BOOT"
 		(shape input)
-		(at 129.54 63.5 180)
+		(at 129.54 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 	)
 	(symbol
 		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
-		(at 148.59 60.96 0)
+		(at 148.59 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2725,14 +2725,6 @@
 		(fields_autoplaced yes)
 		(uuid "01721386-f9a0-4da4-995c-19395f949639")
 		(property "Reference" "S1"
-			(at 148.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT"
 			(at 148.59 53.34 0)
 			(effects
 				(font
@@ -2740,8 +2732,16 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
-			(at 148.59 60.96 0)
+		(property "Value" "BOOT"
+			(at 148.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2769,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2779,7 @@
 			)
 		)
 		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2789,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2799,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2809,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +2819,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2829,7 @@
 			)
 		)
 		(property "PARTREV" "P"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2839,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +2849,7 @@
 			)
 		)
 		(property "MP" "USLPT2819DT2TR"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2859,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +2869,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 148.59 60.96 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3039,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 74.93 0)
+		(at 132.08 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3048,7 +3048,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e02d4e8-3dfe-48e5-91b2-9d6b8fac3d9b")
 		(property "Reference" "#PWR055"
-			(at 132.08 81.28 0)
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3057,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 80.01 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 74.93 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 74.93 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 74.93 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
 			(at 195.58 58.42 0)
 			(effects
 				(font
@@ -3766,7 +3766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 73.66 0)
+		(at 163.83 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3775,7 +3775,7 @@
 		(fields_autoplaced yes)
 		(uuid "b679f4d4-311d-4801-afb9-5d9d9861142f")
 		(property "Reference" "#PWR050"
-			(at 163.83 80.01 0)
+			(at 163.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3784,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 78.74 0)
+			(at 163.83 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 73.66 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 73.66 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 73.66 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3832,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 71.12 0)
+		(at 132.08 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3841,15 +3841,6 @@
 		(fields_autoplaced yes)
 		(uuid "b9956c78-fd30-40ec-8e37-894a2b3aecbd")
 		(property "Reference" "C21"
-			(at 135.89 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
 			(at 135.89 72.3899 0)
 			(effects
 				(font
@@ -3858,8 +3849,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "0.1u"
+			(at 135.89 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 133.0452 74.93 0)
+			(at 133.0452 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 71.12 0)
+			(at 132.08 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3877,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 71.12 0)
+			(at 132.08 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

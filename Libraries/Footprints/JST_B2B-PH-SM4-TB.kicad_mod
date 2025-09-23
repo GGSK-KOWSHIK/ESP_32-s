@@ -1,5 +1,5 @@
 
-(footprint JST_B2B-PH-SM4-TB (layer F.Cu) (tedit 675B4655)
+(footprint JST_B2B-PH-SM4-TB (layer F.Cu) (tedit 68D13C2A)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -1.275 -4.385 0) (layer F.SilkS)

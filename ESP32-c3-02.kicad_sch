@@ -5513,7 +5513,7 @@
 		(uuid "59d7930a-adc0-4a79-ad68-ebb972fe833f")
 	)
 	(label "CS_SD"
-		(at 204.47 50.8 180)
+		(at 204.47 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5533,7 +5533,7 @@
 		(uuid "63138c17-4ee3-48a5-803a-c02575b9b2fb")
 	)
 	(label "MIC_OUT"
-		(at 204.47 63.5 180)
+		(at 204.47 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6338,7 +6338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
 			(at 113.03 107.95 0)
 			(effects
 				(font
@@ -7070,7 +7070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
+		(property "Footprint" "Footprints:SOIC127P790X216-8N"
 			(at 76.2 157.48 0)
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GSD090012SEU:AMPHENOL_GSD090012SEU"
+		(property "Footprint" "Footprints:AMPHENOL_GSD090012SEU"
 			(at 201.93 114.3 0)
 			(effects
 				(font
@@ -9332,7 +9332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Footprints:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 222.25 60.96 0)
 			(effects
 				(font
