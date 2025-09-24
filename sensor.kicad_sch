@@ -3651,10 +3651,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2284b7ac-8af8-43f5-97df-886547f91159")
 		(property "Reference" "C23"
-			(at 209.55 59.6899 0)
+			(at 207.01 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
